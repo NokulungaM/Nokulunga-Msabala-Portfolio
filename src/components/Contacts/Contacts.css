@@ -149,13 +149,17 @@
 
 .personal-details p {
     margin-left: 1.5rem;
-    font-size: 18px;
+    font-size: 14px;  /* Decrease font size */
     line-height: 110%;
     font-weight: 500;
     font-family: var(--primaryFont);
     width: 45%;
     word-break: break-word;
+    white-space: nowrap;  /* Prevent wrapping */
+    overflow: hidden;     /* Hide overflow if needed */
+    text-overflow: ellipsis;  /* Add ellipsis if text is too long */
 }
+
 
 .socialmedia-icons {
     width: 90%;

@@ -8,5 +8,3 @@ export const themeData = {
     theme:  pinkThemeDark
 }
 
-
-// Choose theme from above

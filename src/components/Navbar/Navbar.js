@@ -254,14 +254,6 @@ function Navbar() {
                                 spy='true'
                                 duration={2000}
                             >
-                                <div className={classes.drawerItem}>
-                                    <FaFolderOpen
-                                        className={classes.drawerIcon}
-                                    />
-                                    <span className={classes.drawerLinks}>
-                                        Blog
-                                    </span>
-                                </div>
                             </NavLink>
                         </Fade>
 
